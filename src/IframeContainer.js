@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 const IframeContainer = () => {
     //const [url, setUrl] = useState('https://sumitsinha152.blogspot.com/2020/09/philips-off-campus-freshers-recruitment.html');
     const [url, setUrl] = useState('');
-    const numbersArray = Array.from({ length: 10 }, (_, index) => index + 1);
+    const numbersArray = Array.from({ length: 50 }, (_, index) => index + 1);
     const handleUrlChange = (e) => {
         setUrl(e.target.value);
     };
